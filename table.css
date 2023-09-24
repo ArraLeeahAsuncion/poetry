@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size:80%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #060606;
+	
+}
+h1{
+    text-align: center;
+	font-size: 40px;
+	font-family: Creepster;
+}
+p{
+    text-align: center;   
+	color: #040404;
+	font-size: 20px; 
+	font-family:'Times New Roman', Times, serif ;
+} 
+li {
+    list-style-image: url("../images/icon-plus.png");
+    line-height: 1.6em;
+	font-size: 20px;
+	color: #010101; 
+	font-family: 'Times New Roman', Times, serif;
+}
+ul{
+	margin-left: 250px;
+}
+table {
+	border-spacing: 0px;
+}
+th, td {
+    padding: 5px 30px 5px 10px;
+	border-spacing: 0px;
+	font-size: 120%;
+	margin: 0px;
+}			
+th, td {
+	text-align: center;
+	background-color: #f5dbab;
+	border-top: 1px solid #0f0f0f;
+	border-bottom: 1px solid #080808;
+	border-right: 1px solid #060606;
+    border-left: 1px solid #0a0a0a;
+}
+
+tr.head th {
+	color: #f4f8f4;
+	background-color: #85633b;
+	text-align: center;
+	text-shadow: -1px -1px 1px #;
+	letter-spacing: 0.15em;
+}
+	
+td {
+    text-shadow: 1px 1px 1px #;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+tr.even td, tr.even th {
+	background-color: #f6e9d7;
+}
+	tr.head th:first-child {
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+}
+tr.head th:last-child {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+fieldset {
+	width: 310px;
+	margin-top: 20px;
+	border: 1px solid #060606;
+	background-color: #e2c498;
+	line-height: 1.6em;
+    align-items:center;
+}
+legend {
+	font-style: italic;
+    text-align: 25px;
+	color: #020202;
+	font-size: 15px;
+}
+input[type="text"] {
+	width: 120px;
+	border: 1px solid #090909;
+	padding: 2px;
+	outline: none;
+}
+input[type="text"]:focus,
+input[type="text"]:hover {
+	background-color: #d0cbcf;
+	border: 1px solid #131414;
+}
+input[type="submit"] {
+	border: 1px solid #020202;
+	background-color: #866E46;
+	color: #f8f8f8;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+	border: 1px solid #050505;
+	background-color: #747474;
+	color: #080808;
+	cursor: pointer;
+}
+
+.title {
+	float: left;
+	width: 160px;
+	clear: left;
+}
+.submit {
+	width: 310px;
+	text-align: right;
+}
